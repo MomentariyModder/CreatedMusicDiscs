@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "infernalexp:soul_salt_clump"
+  },
+  "result": {
+    "item": "infernalexp:music_disc_soul_spunk"
+  }
+}
