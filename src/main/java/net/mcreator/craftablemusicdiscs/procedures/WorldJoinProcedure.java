@@ -8,9 +8,7 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.ChatType;
-import net.minecraft.Util;
+import net.minecraft.network.chat.Component;
 
 import javax.annotation.Nullable;
 
@@ -18,7 +16,7 @@ import javax.annotation.Nullable;
 public class WorldJoinProcedure {
 	@SubscribeEvent
 	public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-		execute(event, event.getPlayer().level);
+		execute(event, event.getEntity().level);
 	}
 
 	public static void execute(LevelAccessor world) {
@@ -29,17 +27,17 @@ public class WorldJoinProcedure {
 		if (!world.isClientSide()) {
 			MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
 			if (_mcserv != null)
-				_mcserv.getPlayerList().broadcastMessage(new TextComponent("| Craftable Music Discs"), ChatType.SYSTEM, Util.NIL_UUID);
+				_mcserv.getPlayerList().broadcastSystemMessage(Component.literal("| Craftable Music Discs"), false);
 		}
 		if (!world.isClientSide()) {
 			MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
 			if (_mcserv != null)
-				_mcserv.getPlayerList().broadcastMessage(new TextComponent("| Version: 1.0.0"), ChatType.SYSTEM, Util.NIL_UUID);
+				_mcserv.getPlayerList().broadcastSystemMessage(Component.literal("| Version: 2.0.0"), false);
 		}
 		if (!world.isClientSide()) {
 			MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
 			if (_mcserv != null)
-				_mcserv.getPlayerList().broadcastMessage(new TextComponent("| https://momentariymodder.tk/cmd.html"), ChatType.SYSTEM, Util.NIL_UUID);
+				_mcserv.getPlayerList().broadcastSystemMessage(Component.literal("| https://momentariymodder.tk/cmd.html"), false);
 		}
 	}
 }

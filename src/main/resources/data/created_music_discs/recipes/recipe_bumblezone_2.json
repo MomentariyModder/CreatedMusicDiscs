@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "the_bumblezone:sticky_honey_residue"
+  },
+  "result": {
+    "item": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+  }
+}

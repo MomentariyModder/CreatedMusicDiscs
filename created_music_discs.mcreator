@@ -180,7 +180,7 @@
   "workspaceSettings": {
     "modid": "created_music_discs",
     "modName": "Created Music Discs",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "Main goal of this mod is to make Music Discs craftable, which is especially helpful for those, who love to use Jukebox. It also supports many popular mods!",
     "author": "MomentariyModder",
     "websiteURL": "https://momentariymodder.github.io/cmd.html",
@@ -195,10 +195,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "currentGenerator": "forge-1.19.2",
     "credits": "© 2022 MomentariyModder. All Rights Reserved.",
     "modElementsPackage": "net.mcreator.craftablemusicdiscs",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200341417
 }

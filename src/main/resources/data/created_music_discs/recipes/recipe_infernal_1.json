@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "infernalexp:luminous_fungus"
+  },
+  "result": {
+    "item": "infernalexp:music_disc_flush"
+  }
+}
