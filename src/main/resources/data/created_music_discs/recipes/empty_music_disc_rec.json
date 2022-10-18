@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "1": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "2": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "3": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "6": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "7": {
+      "item": "created_music_discs:disc_fragment"
+    },
+    "8": {
+      "item": "created_music_discs:disc_fragment"
+    }
+  },
+  "result": {
+    "item": "created_music_discs:empty_music_disc",
+    "count": 1
+  }
+}

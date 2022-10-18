@@ -1,0 +1,204 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiscFragment",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_fragment"
+    },
+    {
+      "name": "EmptyMusicDisc",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_music_disc"
+    },
+    {
+      "name": "DiscFragmentRec",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_fragment_rec"
+    },
+    {
+      "name": "EmptyMusicDiscRec",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_music_disc_rec"
+    },
+    {
+      "name": "MDRecChirp",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_chirp"
+    },
+    {
+      "name": "MDRec13",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_13"
+    },
+    {
+      "name": "MDRecCat",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_cat"
+    },
+    {
+      "name": "MDRecBlocks",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_blocks"
+    },
+    {
+      "name": "MDRecFar",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_far"
+    },
+    {
+      "name": "MDRecMall",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_mall"
+    },
+    {
+      "name": "MDRecMellohi",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_mellohi"
+    },
+    {
+      "name": "MDRecStal",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_stal"
+    },
+    {
+      "name": "MDRecWard",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_ward"
+    },
+    {
+      "name": "MDRecStrad",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_strad"
+    },
+    {
+      "name": "MDRecWait",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_wait"
+    },
+    {
+      "name": "MDRec11",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_11"
+    },
+    {
+      "name": "MDRecPigstep",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_pigstep"
+    },
+    {
+      "name": "MDRecOtherside",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_otherside"
+    },
+    {
+      "name": "WorldJoin",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item.created_music_discs.disc_fragment": "Фрагмент диска",
+      "item.created_music_discs.empty_music_disc": "Пустая Пластинка"
+    },
+    "en_us": {
+      "item.created_music_discs.disc_fragment": "Disc Fragment",
+      "item.created_music_discs.empty_music_disc": "Empty Music Disc"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "created_music_discs",
+    "modName": "Created Music Discs",
+    "version": "1.0.1",
+    "description": "Main goal of this mod is to make Music Discs craftable, which is especially helpful for those, who love to use Jukebox. It also supports many popular mods!",
+    "author": "MomentariyModder",
+    "websiteURL": "https://momentariymodder.github.io/cmd.html",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "updateURL": "https://raw.githubusercontent.com/MomentariyModder/versions/main/CMD/version.json",
+    "modPicture": "banner",
+    "requiredMods": [
+      "momentariycore2"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "© 2022 MomentariyModder. All Rights Reserved.",
+    "modElementsPackage": "net.mcreator.craftablemusicdiscs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

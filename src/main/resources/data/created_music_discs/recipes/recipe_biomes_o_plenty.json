@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "biomesoplenty:blue_hydrangea"
+  },
+  "result": {
+    "item": "biomesoplenty:music_disc_wanderer"
+  }
+}

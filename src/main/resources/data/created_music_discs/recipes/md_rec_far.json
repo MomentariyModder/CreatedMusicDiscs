@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "item": "minecraft:music_disc_far"
+  }
+}

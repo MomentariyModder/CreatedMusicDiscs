@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "quark:golden_frog_leg"
+  },
+  "result": {
+    "item": "quark:music_disc_clock"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "twilightforest:naga_scale"
+  },
+  "result": {
+    "item": "twilightforest:music_disc_steps"
+  }
+}

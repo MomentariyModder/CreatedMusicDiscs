@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="created_music_discs"
+version="1.0.1"
+displayName="Created Music Discs"
+credits="© 2022 MomentariyModder. All Rights Reserved."
+displayURL="https://momentariymodder.github.io/cmd.html"
+updateJSONURL="https://raw.githubusercontent.com/MomentariyModder/versions/main/CMD/version.json"
+logoFile="logo.png"
+authors="MomentariyModder"
+description='''
+Main goal of this mod is to make Music Discs craftable, which is especially helpful for those, who love to use Jukebox. It also supports many popular mods!
+'''
+
+[[dependencies.created_music_discs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.created_music_discs]]
+    modId="momentariycore2"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

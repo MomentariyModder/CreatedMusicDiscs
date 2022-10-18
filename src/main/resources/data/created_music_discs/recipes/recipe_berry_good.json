@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "berry_good:sweet_berry_pips"
+  },
+  "result": {
+    "item": "berry_good:music_disc_fox"
+  }
+}

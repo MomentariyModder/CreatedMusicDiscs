@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "alexsmobs:capsid"
+  },
+  "result": {
+    "item": "alexsmobs:music_disc_daze"
+  }
+}

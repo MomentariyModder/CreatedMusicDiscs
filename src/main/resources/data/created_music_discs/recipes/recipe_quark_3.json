@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "quark:glow_shroom"
+  },
+  "result": {
+    "item": "quark:music_disc_rain"
+  }
+}

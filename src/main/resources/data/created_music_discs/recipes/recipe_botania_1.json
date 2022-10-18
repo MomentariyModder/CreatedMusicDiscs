@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "botania:white_petal"
+  },
+  "result": {
+    "item": "botania:record_gaia_1"
+  }
+}

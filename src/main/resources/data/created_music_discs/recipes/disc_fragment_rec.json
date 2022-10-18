@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    " 45",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "4": {
+      "item": "minecraft:flint"
+    },
+    "5": {
+      "item": "minecraft:flint"
+    },
+    "8": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "created_music_discs:disc_fragment",
+    "count": 1
+  }
+}
