@@ -154,22 +154,71 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
+    },
+    {
+      "name": "Rec15",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_15"
+    },
+    {
+      "name": "Calm4musicdisc",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calm_4musicdisc"
+    },
+    {
+      "name": "MDRecCalm4",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "md_rec_calm_4"
+    },
+    {
+      "name": "CreatedMusicDiscs",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "created_music_discs"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "calm4",
+      "files": [
+        "calm4"
+      ],
+      "category": "music",
+      "subtitle": "notch - calm4/Magnetic Circuit"
+    }
+  ],
   "language_map": {
     "ru_ru": {
+      "subtitles.calm4": "notch - calm4/Magnetic Circuit",
+      "itemGroup.tabcreated_music_discs": "Created Music Discs",
       "item.created_music_discs.disc_fragment": "Фрагмент диска",
-      "item.created_music_discs.empty_music_disc": "Пустая Пластинка"
+      "item.created_music_discs.calm_4musicdisc.desc": "notch - calm4/Magnetic Circuit",
+      "item.created_music_discs.calm_4musicdisc": "Пластинка",
+      "item.created_music_discs.empty_music_disc": "Пустая пластинка"
     },
     "en_us": {
+      "subtitles.calm4": "notch - calm4/Magnetic Circuit",
+      "itemGroup.tabcreated_music_discs": "Created Music Discs",
       "item.created_music_discs.disc_fragment": "Disc Fragment",
+      "item.created_music_discs.calm_4musicdisc.desc": "notch - calm4/Magnetic Circuit",
+      "item.created_music_discs.calm_4musicdisc": "Music Disc",
       "item.created_music_discs.empty_music_disc": "Empty Music Disc"
     }
   },
@@ -180,7 +229,7 @@
   "workspaceSettings": {
     "modid": "created_music_discs",
     "modName": "Created Music Discs",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Main goal of this mod is to make Music Discs craftable, which is especially helpful for those, who love to use Jukebox. It also supports many popular mods!",
     "author": "MomentariyModder",
     "websiteURL": "https://momentariymodder.github.io/cmd.html",
@@ -200,5 +249,5 @@
     "modElementsPackage": "net.mcreator.craftablemusicdiscs",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200341417
+  "mcreatorVersion": 202200346416
 }

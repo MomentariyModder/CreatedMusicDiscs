@@ -1,0 +1,12 @@
+{
+  "calm4": {
+    "category": "music",
+    "subtitle": "subtitles.calm4",
+    "sounds": [
+      {
+        "name": "created_music_discs:calm4",
+        "stream": true
+      }
+    ]
+  }
+}

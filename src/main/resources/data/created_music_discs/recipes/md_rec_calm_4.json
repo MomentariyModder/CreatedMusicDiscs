@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "result": {
+    "item": "created_music_discs:calm_4musicdisc"
+  }
+}

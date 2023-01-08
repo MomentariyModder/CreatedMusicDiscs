@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Created Music Discs",
+    "icon": {
+      "value": "CUSTOM:EmptyMusicDisc"
+    },
+    "showSearch": false
+  }
+}

@@ -8,7 +8,7 @@
     "name": "Disc Fragment",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreatedMusicDiscs"
     },
     "stackSize": 64,
     "enchantability": 0,

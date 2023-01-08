@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "calm4_music_disc",
+    "description": "notch - calm4/Magnetic Circuit",
+    "creativeTab": {
+      "value": "CUSTOM:CreatedMusicDiscs"
+    },
+    "specialInfo": [
+      "Calm4.ogg was a music file (alongside the other tracks) that was beta-tested and created by Notch himself. It consists of an up-beat",
+      "battle-like tune. A part of the song has Notch saying \"Mojang Specifications\" in a slowed-down voice. The track was released around Alpha 1.1.1 (Seecret Saturday 10)",
+      "but it is unknown when and why it was omitted from the downloaded game files."
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:calm4"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

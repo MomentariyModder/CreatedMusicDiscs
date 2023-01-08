@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "CUSTOM:DiscFragment"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DISC_FRAGMENT_5"
+    },
+    "name": "rec_15",
+    "namespace": "mod"
+  }
+}

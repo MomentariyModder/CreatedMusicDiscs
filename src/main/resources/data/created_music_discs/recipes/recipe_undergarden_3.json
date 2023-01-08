@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "undergarden:utheric_shard"
+  },
+  "result": {
+    "item": "undergarden:music_disc_relict"
+  }
+}

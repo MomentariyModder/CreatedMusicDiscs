@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "created_music_discs:empty_music_disc"
+  },
+  "addition": {
+    "item": "undergarden:underbeans"
+  },
+  "result": {
+    "item": "undergarden:music_disc_mammoth"
+  }
+}

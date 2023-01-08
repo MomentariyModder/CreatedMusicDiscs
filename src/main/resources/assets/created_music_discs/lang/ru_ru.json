@@ -1,4 +1,8 @@
 {
+  "subtitles.calm4": "notch - calm4/Magnetic Circuit",
+  "itemGroup.tabcreated_music_discs": "Created Music Discs",
   "item.created_music_discs.disc_fragment": "Фрагмент диска",
-  "item.created_music_discs.empty_music_disc": "Пустая Пластинка"
+  "item.created_music_discs.calm_4musicdisc.desc": "notch - calm4/Magnetic Circuit",
+  "item.created_music_discs.calm_4musicdisc": "Пластинка",
+  "item.created_music_discs.empty_music_disc": "Пустая пластинка"
 }
